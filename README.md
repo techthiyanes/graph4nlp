@@ -120,6 +120,8 @@ We provide a comprehensive collection of NLP applications, together with detaile
 
 ## Performance
 
+Environment: torch 1.8, ubuntu 16.04 with 2080ti GPUs
+
 | Task                       |              Dataset             |   GNN    Model      | Graph construction                           | Evaluation         |          Performance          |
 |----------------------------|:--------------------------------:|:-------------------:|----------------------------------------------|--------------------|:-----------------------------:|
 | Text classification        | TRECT<br> CAirline<br> CNSST<br> |           GAT       | Dependency                                   |        Accuracy    | 0.948<br> 0.769<br> 0.538<br> |
